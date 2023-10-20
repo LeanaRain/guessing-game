@@ -7,8 +7,8 @@ class GuessingGame {
 
     //устанавливаем диапазон чисел для угадывания
     setRange(min, max) {
-        this.minNum = 0;
-        this.maxNum = 100;
+        this.minNum = min;
+        this.maxNum = max;
     }
 
     guess() {
